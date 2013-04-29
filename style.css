@@ -35,6 +35,9 @@ div {
     text-decoration: none;
 }
 /* nav bar */
+#nav span {
+    margin-right: 25px;
+}
 #nav a:link {
     font: 1.5em georgia, sans-serif;
     text-decoration: none;
