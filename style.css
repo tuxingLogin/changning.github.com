@@ -1,58 +1,44 @@
 /* basic elements */
-html {
+html, body {
     margin: 0;
     padding: 0;
 }
-body {
-    font: 100% georgia, san-serif;
-    line-height: 1.889;
-    color: #555753;
+h1 {
+    font: bold 25px;
+    color: #333;
+    margin: 10px 0;
 }
-p {
-    margin-top: 0;
-    text-align: justify;
+h2 {
+    font: bold 20px;
+    color: #325d72;
+    border-bottom: 1px solid #ddd;
+    margin: 1.5em 0 1em;
 }
-h3 {
-    font: italic normal 1.4em georgia, sans-serif;
-    letter-spacing: 1px;
-    margin-bottom: 0;
-    color: #7D775C;
-}
-a:link {
-    font-weight: bold;
-    text-decoration: none;
-    color: #B7A5DF;
-}
-a:visited {
-    font-weight: bold;
-    text-decoration: none;
-    color: #D4CDDC;
-}
-a:hover, a:active {
-    text-decoration: underline;
-    color: #9685BA;
-}
-/* header */
-#header {
+div {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
-#header h1 {
+/* header */
+#header {
+    width: 800px;
+    margin: 25px auto 0 auto;
+}
+#header a:link {
     font: 2em georgia, sans-serif;
+    text-decoration: none;
     letter-spacing: 1px;
     margin-bottom:5px;
-    color: #7D775C;
-}
-#header a {
-    font: 1.5em georgia, sans-serif;
-    letter-spacing: 1px;
-    color: #7D775C;
+    color: #325d72;
 }
 #header a:hover, a:active {
     text-decoration: none;
 }
-#header span {
+/* nav bar */
+#nav a {
+    font: 1.5em georgia, sans-serif;
+    letter-spacing: 1px;
+    color: #7D775C;
     margin-right: 25px;
 }
 /* main */
