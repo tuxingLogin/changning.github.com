@@ -35,11 +35,15 @@ div {
     text-decoration: none;
 }
 /* nav bar */
-#nav a {
+#nav a:link {
     font: 1.5em georgia, sans-serif;
-    letter-spacing: 1px;
-    color: #7D775C;
+    text-decoration: none;
+    letter-spacing: 1px
     margin-right: 25px;
+    color: #325d72;
+}
+#nav a:hover, a:active {
+    text-decoration: none;
 }
 /* main */
 #main {
