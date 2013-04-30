@@ -1,27 +1,25 @@
 /* basic elements */
-html, body {margin:0; padding:0;}
+html {margin:0; padding:0;}
 h1 {font:bold 1.3em; color:#333; margin:10px 0;}
 h2 {font:bold 1.2em; color:#325d72; border-bottom:1px solid #ddd; margin:1.5em 0 1em;}
-body {position:relative; width:800px; margin:0 auto 0 auto; font-size:large;
+body {width:800px; margin:0 auto 0 auto; font-size:large; line-height:150%;
 	font-family:"Sabon Lt Std","Hoefler Text","Palatino Linotype","Book Antiqua",serif;}
 	
 /* header */
-#logo {float:left; width:400px; height:40px; margin-top:15px; margin-left:15px;}
-#logo a:link {font-size:1.7em; text-decoration:none; color:#325d72;}
-#logo a:visited, a:hover, a:active {text-decoration:none;}
-#intro {float:left; width:300px; height:40px; margin: 30px 0 0 25px;}
+#header {float:left; width:800px; margin-top:25px; margin-bottom:15px;}
+#header a:link {font-size:1.7em; text-decoration:none; color:#325d72;}
+#header a:visited, a:hover, a:active {text-decoration:none;}
 
-/* main container = nav + content */
-#main {float:left; width:800px; min-height:400px; border:1px solid #325d72; border-left:0; border-right:0;}
-
-/* nav bar on the left*/
-#nav {float:left; width:100px;}
-#nav p {margin-left:15px; margin-bottom:15px;}
-#nav a:link {font-size:1.2em; text-decoration:none; letter-spacing:1px; color:#325d72;}
+/* nav bar */
+#nav {float:left; width:800px; border-bottom:1px solid #325d72;}
+#nav a:link {font-size:1.2em; text-decoration:none; color:#325d72;}
 #nav a:visited, a:hover, a:active {text-decoration:none;}
+#nav span {margin-left:20px;}
 
-/* content on the right */
-#content {float:left; width:655px; min-height:400px; padding-left:30px; border-left:1px solid #325d72;}
+/* main content */
+#content {float:left; width:800px; min-height:400px;}
+#content p {margin-left:20px; margin-right:20px;}
 
 /* footer */
-#footer {float:left; margin-left:20px;}
+#footer {float:left; width:800px; border-top:1px solid #325d72;}
+#footer p {margin-left:20px;}
