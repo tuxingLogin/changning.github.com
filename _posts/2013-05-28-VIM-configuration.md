@@ -6,17 +6,6 @@ category: unix
 
 VIM is the king of plain text editor, especially on Linux and Mac.
 
-	" This is my personal .vimrc file. You can copy it, but that
-	" is not recommended. I would suggest that you read mine as
-	" a sample and create your own depending on what you have
-    " and what you need.
-    "
-    " If you find any possible mistakes in this file, please
-    " contact me at http://cniu.me
-    "
-    " -- Changning Niu (Oct 7, 2011)
-    
-    
     " General
         filetype plugin indent on   " ~/.vim/indent/ from http://goo.gl/pMmMw
         syntax on           " syntax highlighting
